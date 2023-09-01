@@ -6,11 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tauri": "cargo tauri dev"
   },
   "dependencies": {
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0"
   }
 }

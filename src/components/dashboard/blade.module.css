@@ -1,0 +1,7 @@
+.blade {
+    flex: 0 1 auto;
+}
+
+.blade:global.selected {
+    flex: 1 0 auto;
+}
